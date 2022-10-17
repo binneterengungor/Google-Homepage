@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.search {
+    background-color: rgb(238, 238, 238);
+    display: block;
+    text-align: center;
+    width: 90%;
+}
+
+.search p {
+    font-size: medium;
+}
+
+.search input {
+    font-size: small;
+    padding: 1px 6px;
+}
+
+.special{
+    background-color: rgb(126, 229, 218);
+    display: table-cell;
+    vertical-align: inherit;
+    border-color: inherit;
+    width: 37%;
+    text-align: center;
+    margin-right: 2px;
+    height: 78px;
+}
+
+
+
+.help{
+    background-color: rgb(126, 229, 218);
+    display: block;
+    width: 23%;
+    border-color: inherit;
+    text-align: center;
+    height: 78px;
+}
+.get {
+    background-color: rgb(126, 229, 218);
+    display: block;
+    border-color: inherit;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 2px;
+    width: 40%;
+    height: 78px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100px;
+    width: 758px;
+    text-align: center;
+    width: 90%;
+    margin-top: 2px;
+   
+}
+
+.table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    
+    font-size: small;
+}
